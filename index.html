@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Bros</title>
+</head>
+
+<body>
+    <div onclick="cliqueiFora()" class="mascara-formulario"></div>
+
+    <div class="header">
+        <img src="./arquivos/logo-header.png" alt="cabeça mario">
+        <a>Home</a>
+        <a>Nossos Serviços</a>
+        <a>Fale Conosco</a>
+
+    </div>
+    <div class="caixa-mae">
+        <div class="caixa-principal">
+            <img src="./arquivos/1-logo.png" alt="Logo Mario" class="logo-mario">
+            <p class="Encanadores"> Encanadores Mario & Luigi - Resolvem Todos os Problemas</p>
+            <p class="Resolvem"> Você já se deparou com um problema de encanamento? Não se preocupe mais, estamos aqui
+                para resolver!</p>
+
+            <button onclick="cliqueiNoBotao()" classs="botao-entre-em-contato"> Entre em contato</button>
+        </div>
+
+
+        <div>
+            <img src="./arquivos/2-mario.png" alt="mario e luigi" class="imagem-mario-luigi">
+        </div>
+
+    </div>
+
+    <div class="caixa-video">
+        <video src="./arquivos/video.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+    </div>
+
+    <a href="https://wa.me/5596981031755?text=Ol%C3%A1%2C+quero+ajuda%21" class="link-whatsapp">
+        <img src="./arquivos/whatsapp.png" alt="link para o whatsapp">
+    </a>
+
+    <form class="formulario" 
+    action="https://formcarry.com/s/AMsotx7SJ6I" 
+    method="POST" 
+    enctype="multipart/form-data">
+        <input placeholder="Seu Nome" type="text" name="Nome">
+        <input placeholder="Seu Telefone" type="tel" name="Telefone">
+        <textarea placeholder="Digite seu problema aqui..."name="Duvidas"></textarea>
+        <button class="botao-pedir-orçamento" type="submit">Pedir Orçamento</button>
+    </form>
+
+
+</body>
+<script src="scrips.js"></script>
+
+</html>
